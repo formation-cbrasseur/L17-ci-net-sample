@@ -26,3 +26,5 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Useless step
+      run: echo "This is a useless step, but it is here to show how to add a step to the workflow"
